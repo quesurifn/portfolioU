@@ -1,5 +1,4 @@
 <!DOCTYPE HTML>
-<html lang="en">
 <head>
 	<!--Makes Sure using Unicode 8-->
 	<meta charset="utf-8">
@@ -12,72 +11,78 @@
 	<!--Imports font-->
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
 </head>
+
 <body>
-<div class="container">
-	<div id="wrapper"> <!-- center Page -->
-		<header> <!--symantic Tag designating a section -->
-  		<div class="row">
-  			<div class="col-md-6 title-logo">
-    			<img class="svg-fluid" src="images/udacity.svg" alt="site logo">
+	<div class="container">
+		<div id="wrapper">
+			<header>
+				<div class="row">
+					<div class="col-md-6 title-logo">
+						<img class="svg-fluid" src="images/udacity.svg" alt="site logo">
+					</div>
+					<div class="col-md-6 text-right text-uppercase">
+						<h1 class="text-thin title-super title-logo">kyle c r fahey</h1>
+						<h4>ninja of the full-stack</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<hr>
+					</div>
+				</div>
+			</header>
+		
+		<section id="page">
+			<div class="row">
+				<div class="col-md-12">
+				<img class="img-responsive" src="http://placekitten.com/g/1250/300" alt="featured image">
+			</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-muted">Featured Work</h2>
+				</div>
+			</div>
+			   <div class="row"> <!-- wraps Colums-->
+    				<div class="col-md-4"> <!-- 12/3 = 4 columns-->
+        				<img class="img-responsive" src="http://placekitten.com/g/555/300" alt = "project image one" data-toggle="modal" data-target="#project1">
+        				<h3 class="text-uppercase">Kittens</h3>
+        				<p><a href="http://github.com">Link to project</a></p>
+      				</div>
+    				<div class="col-md-4">
+    					<img class="img-responsive" src="http://placekitten.com/g/555/300" alt="featured image two" data-toggle="modal" data-target="#project2">
+        				<h3 class="text-uppercase">Every</h3>
+        				<p><a href="http://github.com">Link to project</a></p>
+   					</div>
+    				<div class="col-md-4">
+        				<img class="img-responsive" src="http://placekitten.com/g/555/300" alt="featued image three" data-toggle="modal" data-target="#project3">
+        				<h3 class="text-uppercase">Where!</h3>
+       					<p><a href="http://github.com">Link to project</a></p>
+      				</div>
     			</div>
-        	<div class="col-md-6 text-right text-uppercase">
-        		<h1 class="text-thin title-super title-logo">Kyle C R Fahey</h1>
-        		<h4>Ninja of the Full-Stack</h4>
-      		</div>
-    	</div>
-        <div class="row">
-		<div class="col-md-12">
-			<hr>    <!-- border header thingy -->
-		</div>
-	</div>
-	</header>
+		</section>
 
-    <section id="Page"> <!--symantic Tag-->
-	<div id="Featured Image">
-    	<img class="img-responsive" src="http://placekitten.com/g/1250/300" alt="featured image">
-	</div>
-    <div class="col-md-12">
-      	<h2 class="text-muted">Featured Work</h2>
-    </div>
-    <div class="row"> <!-- wraps Colums-->
-    	<div class="col-md-4"> <!-- 12/3 = 4 columns-->
-        	<img class="img-responsive" src="http://placekitten.com/g/555/300" alt = "project image one" data-toggle="modal" data-target="#project1">
-        	<h3 class="text-uppercase">Kittens</h3>
-        	<p><a href="http://github.com">Link to project</a></p>
-      </div>
-    <div class="col-md-4">
-    	<img class="img-responsive" src="http://placekitten.com/g/555/300" alt="featured image two" data-toggle="modal" data-target="#project2">
-        <h3 class="text-uppercase">Every</h3>
-        <p><a href="http://github.com">Link to project</a></p>
-    </div>
-    	<div class="col-md-4">
-        	<img class="img-responsive" src="http://placekitten.com/g/555/300" alt="featued image three" data-toggle="modal" data-target="#project3">
-        	<h3 class="text-uppercase">Where!</h3>
-       		<p><a href="http://github.com">Link to project</a></p>
-      </div>
-    </div>
-</section>
 
-<figure> <!--symantic Tag-->
-	<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> <!--Modals to enhance -->
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Kitties</h4>
-                </div>
-                <div class="modal-body">
-                    <img class="img-responsive" src="http://placekitten.com/g/500/250">
-                    <p>
-                    	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</figure>
+		<figure> <!--symantic Tag-->
+			<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> <!--Modals to enhance -->
+        		<div class="modal-dialog">
+            		<div class="modal-content">
+                		<div class="modal-header">
+                    		<h4 class="modal-title" id="myModalLabel">Kitties</h4>
+                		</div>
+                	<div class="modal-body">
+                    	<img class="img-responsive" src="http://placekitten.com/g/500/250">
+                    	<p>
+                    		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    	</p>
+                	</div>
+                	<div class="modal-footer">
+                    	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                	</div>
+            		</div>
+        		</div>
+    		</div>
+		</figure>
 
        
 	<figure>
@@ -118,11 +123,13 @@
                		</div>
             	</div>
         	</div>
-        </div>
-    </figure>
+		</div>
+	</figure>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <!-- JS for Modals-->
 <script src="js/bootstrap.min.js"></script>  
 <script>(function (){return window.SIG_EXT={}})()</script>
+</div>
+</div>
 </body>
 </html>
