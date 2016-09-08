@@ -15,6 +15,13 @@ hr {
 	padding: 0;
 }
 
+.img {
+	margin-right: Shorthand;
+	margin-left: Shorthand;
+	margin-bottom: Set;
+	display: inline;
+}
+
 
 /* center my page */
 #wrapper {  
@@ -23,7 +30,7 @@ hr {
 }
 
 .text-muted {
-	color: #BCBBBB;
+	color: #bcbbbb;
 }
 
 .text-thin
@@ -31,23 +38,23 @@ hr {
 	font-weight: 100;
 }
 
-.title-super {
-	font-size: 4.17vw;
-}
-
 .title-logo {
 	margin-top: 20px;
-	display: wrap;
 }
+
+.img-rounded {
+	border-radius: 6px;
+}
+
 
 /* make my SVG responsive */
 .svg-fluid {
-  display: wrap;
   border: 1px;
   max-width: 20%;
   max-height: 20%;
   margin: 0 auto;
 }
+
 img:not(.png) {
   width: 100%;
 }				
@@ -57,29 +64,28 @@ img:not(.png) {
 
   @media only screen and (min-width: 320px) 
   {
-  	html {line-height: 1.25em, font-size: 16px;}
-  	h1{line-height: 1.25em, font-size:32px;}
-  	h2{line-height: 1.15384em, font-size:26px;}
-  	h3{line-height: 1.136363em, font-size:22px;}
-  	h4{line-height: 1.111111em, font-size:18px;}
+  	.title-super {font-size: 3em;}
+  	.title {text-align: center;}
   }
 
-  @media only screen and (min-width: 321px) and (min-width: 768px)
+
+
+   @media only screen and (min-width: 321px) and (min-width: 768px)
   {
-  	html {line-height: 1.375em, font-size: 1em;}
-  	h1{line-height: 1.125em, font-size:2.25em;}
-  	h2{line-height: 1.1548em, font-size:1.75em;}
-  	h3{line-height: 1.20em, font-size:1.43em;}
-  	h4{line-height: 1.211122em, font-size:1.125em;}
+  	.title-super {font-size: 3em;}
+  	.title {text-align: center;}
+
+  	
+
+
   }
   
-  @media only screen and (min-width: 768px)
+  @media only screen and (min-width: 769px)
   {
-  	html {line-height:1.375em, font-size:1.375em;}
-  	h1 {line-height: 1.05em, font-size:3em;}
-  	h2 {line-height: 1.25em, font-size:2.25em;}
-  	h3 {line-height: 1.25em, font-size:1.75em;}
-  	h4 {line-height: 1.211122em, font-size:1.25em;}
-  }
+    .title-super {font-size: 60px}
+    .title {text-align: right;}	
+    .image-badge {display: flex; justify-content: center;}
+    
+  } 
  
   
